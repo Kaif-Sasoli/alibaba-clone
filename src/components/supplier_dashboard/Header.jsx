@@ -11,7 +11,7 @@ function Header({className='', title = "Dashboard" }) {
     const avatar = useSelector(state => state.auth.supplier?.avatar)
 
   return (
-    <header className={`fixed z-10 px-16 py-4 flex justify-between items-center border-b lg:border-none 
+    <header className={`fixed z-10 px-2 lg:px-16 py-4 flex justify-between items-center border-b lg:border-none 
     ${className}`}>
 
     {/* Toggle button mobile view */}

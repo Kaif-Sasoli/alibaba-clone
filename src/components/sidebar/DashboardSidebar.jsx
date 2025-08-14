@@ -106,7 +106,7 @@ function DashboardSidebar({
       {/* Logout Button */}
       <div 
       onClick={handleLogout}
-      className='px-3 py-1 text-xl text-red-500 flex items-center gap-5'>
+      className='px-3 py-1 text-xl text-red-500 flex items-center gap-5 cursor-pointer'>
         <IconWrapper
         Icon={IoLogOut}
         className='text-2xl' />

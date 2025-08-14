@@ -116,7 +116,7 @@
 
 
     return (
-      <div className='my-20 mx-10 bg-white p-6 rounded-md shadow-md max-w-2xl'>
+      <div className='my-20 mx-3 md:mx-10 bg-white p-6 rounded-md shadow-md max-w-2xl'>
         {/* Title */}
         <h1 className='text-2xl font-bold mb-6'>Edit Profile</h1>
 
@@ -158,7 +158,7 @@
             </div>
           </div>
           {/* First and Last Name */}
-          <div className='flex gap-4'>
+          <div className='flex flex-col md:flex-row gap-4'>
             <div className='flex flex-col w-full'>
               <label>First Name</label>
               <input
